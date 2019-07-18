@@ -1,0 +1,24 @@
+.banner {
+    background: @black;
+    background-size: cover;
+    width: 100%;
+    height: 200px;
+    padding: 75px;
+
+
+    @media @mobile {
+        height: 150px;
+        padding: 70px 0;
+    }
+
+    h2 {
+        color: @white;
+        text-align: center;
+        font-size: 6rem;
+        font-family: 'Nunito', sans-serif;
+
+        @media @mobile {
+            font-size: 3rem;
+        }
+    }
+}

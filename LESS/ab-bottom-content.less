@@ -1,0 +1,50 @@
+#btm-id {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+}
+
+.bottom-content {
+        background: rgba(37,38,39, 0.5);
+        padding: 40px;
+        vertical-align: bottom;
+
+    .bottom-btn {
+        text-align: center;
+       
+    }
+
+    .bottom-btn1 {
+        background: @white;
+        color: @black;
+        font-size: 4rem;
+        font-family: 'Nunito', sans-serif;
+        font-weight: bold;
+        text-align: center;
+        padding: 10px 140px;
+        border: 3px solid @black;
+        border-radius: 10px;
+
+        @media @mobile {
+            padding: 10px 100px;
+        }
+
+        &:hover {
+            cursor: pointer;
+            transform: scale(1.15);
+
+            @media @mobile {
+                cursor: pointer;
+                transform: scale(1.05);
+            }
+        }
+
+        .button-maker(@white, @blue);
+
+    }
+
+    h4 {
+        font-size: 3rem;
+        text-align: center;
+    }
+}

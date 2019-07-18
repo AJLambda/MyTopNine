@@ -1,0 +1,81 @@
+.nav {
+    max-width: 1680px;
+    background: rgba(75, 136, 162, 0.7);
+    padding: 2rem;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    position: fixed;
+    top: 0;
+    z-index: 300;
+
+    @media @mobile {
+        background: rgba(187, 10, 33, 0.8);
+        flex-direction: column;
+        position: relative;
+        border-bottom: 2px solid @black;
+    }
+
+    .logo {
+        font-family: 'Nunito', sans-serif;
+        font-size: 5rem;
+        color: @white;
+
+        sup {
+            font-family: 'arial';
+            font-size: 1rem;
+        }
+
+        &:hover {
+            color: @red;
+            cursor: pointer;
+        }
+
+        @media @mobile {
+            text-align: center;
+        }
+
+    }
+
+    .nav-btns {
+        width: 100%;
+        margin: 0 20px 0 0;
+        text-align: right;
+
+        @media @mobile {
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        .nav-btn1 {
+            margin: 0 15px 0 0;
+            padding: 10px 30px;
+            font-family: 'Nunito', sans-serif;
+            font-weight: bold;
+            font-size: 2rem;
+            border: 2px solid @gray;
+            border-radius: 10px;
+
+            .button-maker(@blue, @white);
+
+            @media @mobile {
+                border: 1px solid @black;
+            }
+        }
+
+        .nav-btn2 {
+            padding: 10px 30px;
+            font-family: 'Nunito', sans-serif;
+            font-weight: bold;
+            font-size: 2rem;
+            border: 2px solid @gray;
+            border-radius: 10px;
+
+            .button-maker(@blue, @white);
+
+            @media @mobile {
+                border: 1px solid @black;
+            }
+        }
+    }
+}

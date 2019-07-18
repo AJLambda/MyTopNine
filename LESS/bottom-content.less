@@ -1,0 +1,36 @@
+.bottom-content {
+    
+    .bottom-btn {
+        text-align: center;
+        margin-top: 20%;
+    }
+
+    .bottom-btn1 {
+        background: @white;
+        color: @black;
+        font-size: 4rem;
+        font-family: 'Nunito', sans-serif;
+        font-weight: bold;
+        text-align: center;
+        padding: 20px 20%;
+        border: 3px solid @black;
+        border-radius: 10px;
+        
+
+        &:hover {
+            cursor: pointer;
+            transform: scale(1.15);
+        }
+
+        .button-maker(@white, @blue);
+
+        @media @mobile {
+            padding: 10px 100px;
+        }
+    }
+
+    h4 {
+        font-size: 3rem;
+        text-align: center;
+    }
+}

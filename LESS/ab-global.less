@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%
+}
+
+html,
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: 'Open-Sans', sans-serif;
+}
+
+h3 {
+    text-decoration: underline;
+}
+
+a,
+a:link,
+a:visited,
+a:focus,
+a:hover,
+a:active {
+    text-decoration: none;
+    color: inherit;
+}
+
+.container {
+    max-width: 1680px;
+    margin: 0 auto;
+
+    @media(max-width: 500px) {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+}
+
+//Page fade in
+body {
+    transition: all 0.2s linear;
+}
+.loading {
+    opacity: 0;
+    visibility: hidden;
+}
+
