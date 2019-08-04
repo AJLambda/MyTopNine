@@ -2,7 +2,7 @@
 
 *This repository is my individual work taken from my team's repository @ https://github.com/my-top-nine*
 
-![Imgur Image](https://imgur.com/BXYXEn0.jpg)
+![Imgur Image](https://imgur.com/072mOyg.jpg)
 
 # My Top Nine
 Do you remember MySpace Top 8 friends ? Well this is MyTopNine - a website that lets users select their Top-Nine in a variety of categories (sports, video games, makeup, movies, etc..)
