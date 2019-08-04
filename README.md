@@ -1,4 +1,4 @@
-*My landing page is deployed at https://mytopnine.netlify.com/*
+*My landing page is deployed @ https://mytopnine.netlify.com/*
 
 *This repository is my individual work taken from my team's repository @ https://github.com/my-top-nine*
 
