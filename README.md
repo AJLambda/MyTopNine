@@ -1,4 +1,4 @@
-![Imgur Image](https://imgur.com/BXYXEn0.jpg)
+![Imgur Image](https://i.ibb.co/xjfHw6p/mytopnine.png)
 
 Landing page deployed @ https://mytopnine.netlify.com/
 
@@ -18,6 +18,8 @@ The *Web Foundations* unit explored the following topics:
 - Responsive Design 1 - 2
 - Pre-Processors 1 - 2
 - JavaScript Fundamentals 1 - 4
+
+## UI Developer - Austin James
 
 
 
